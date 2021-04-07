@@ -40,7 +40,12 @@
 	<?php include 'sidebar.php'?>
 	<div id = "content">
 		<br /><br /><br />
-		<div class="alert alert-info"><h3>Projects</h3></div> 
+		<div class="alert alert-info"><h3>Projects</h3>
+		<form method="POST" enctype="multipart/form-data">
+   		 <input type="file" name="foo" value=""/>
+		<a href="./simple-file-manager/index.php">check files</a>
+</form>
+		</div> 
 		<div class="alert alert-info"><h3>Modules</h3></div> 
 	</div>
 	</div>
